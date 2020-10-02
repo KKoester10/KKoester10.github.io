@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'El Messiri', sans-serif;
+}
+
+img{
+    border-radius: 50px;
+    
+}
+body{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.527),rgba(0, 0, 0, 0.644)),  url("../images/mountian.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.title{
+background-color: rgb(231, 19, 19);
+}
+.container{
+    background-color: rgba(16, 151, 50, 0.541);
+}
+.intro{
+    background-color: rgba(255, 0, 0, 0.418);
+}
+.Bio{
+    background-color: rgba(0, 4, 255, 0.425);
+}
+.projects{
+    background-color: rgba(255, 127, 80, 0.445);
+}
+.Connect{
+    background-color: rgba(80, 0, 100, 0.548);
+}
+.info{
+    background-color: rgba(255, 255, 0, 0.473);
+}
+.daisy{
+    background-color: rgba(127, 255, 212, 0.438);
+}
