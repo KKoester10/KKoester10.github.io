@@ -5,23 +5,24 @@
     font-family: 'El Messiri', sans-serif;
 }
 
-img{
-    border-radius: 50px;
+#daisy{
+    border-radius: 75px;
     
 }
 body{
-    background-image:linear-gradient(rgba(255, 255, 255, 0.527),rgba(0, 0, 0, 0.644)),  url("../images/mountian.jpg");
+    background-image:linear-gradient(rgba(255, 255, 255, 0.637),rgba(0, 0, 0, 0.644)),  url("../images/mountian.jpg");
     background-position: center;
     background-size: cover;
 }
 .title{
-background-color: rgb(231, 19, 19);
+background-color: rgba(231, 19, 19, 0);
+font-size: 35px;
 }
 .container{
-    background-color: rgba(16, 151, 50, 0.541);
+    background-color: rgba(16, 151, 50, 0);
 }
 .intro{
-    background-color: rgba(255, 0, 0, 0.418);
+    background-color: rgba(255, 0, 0, 0);
 }
 .Bio{
     background-color: rgba(0, 4, 255, 0.425);
@@ -32,9 +33,12 @@ background-color: rgb(231, 19, 19);
 .Connect{
     background-color: rgba(80, 0, 100, 0.548);
 }
-.info{
-    background-color: rgba(255, 255, 0, 0.473);
+.contact{
+    background-color: rgba(255, 255, 0, 0);
 }
-.daisy{
-    background-color: rgba(127, 255, 212, 0.438);
+.links a{
+    background-color: rgba(127, 255, 212, 0);
+}
+.intro .info .title{
+    text-decoration: underline;
 }
