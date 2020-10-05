@@ -36,7 +36,6 @@
 .container{
     display: grid;
     grid-template-rows: 1fr;
-    max-width: auto;
     width: 95%;
     padding: 35px;
     margin: 25px;
