@@ -3,6 +3,36 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.Bio{
+    display: grid;
+    grid-template-rows: 10% 90% ;
+    padding: 25px;
+    width: 100%;
+    height: 120vh;
+}
+.bio{
+    display: grid;
+    grid-template-columns: auto 450px auto;
+    grid-template-rows: 50% auto;
+    column-gap: 30px;
+}
+.bio p{
+    padding: 30px;
+}
+.bio .about-me{
+    justify-items: center;
+    margin: 15px;
+}
+.bio img{
+    width: 370px;
+    max-height: 460px;
+    margin: 35px;
+    object-fit: contain;
+    background-position: center;
+}
+.contact{
+    margin-top: 5%;
+}
 .container{
     display: grid;
     grid-template-rows: 1fr;
@@ -11,39 +41,28 @@
     padding: 35px;
     margin: auto;
 }
-.kolton_info{
-    row-gap:25px ;
+#daisy{
+    margin-top: 50px;
+    height: 700px;
+    object-fit: contain ;
 }
-
+#github{
+    padding-top: 10px;
+    width: 16%;
+}
+.info{
+    height: 50%;
+    width: 55%;  
+    margin-top: 25%; 
+}
 .intro{
     display: grid;
     grid-template-columns: 1fr  1fr;
     width: 100%;
     height: 100vh;  
 }
-.Bio{
-    padding: 15%;
-    width: 100%;
-    height: 100vh;
-}
-.projects{
-    display: grid;
-    grid-template-columns: 250px auto 250px ;
-    padding: 15px;
-    column-gap: 25px;
-    padding: 15%;
-    width: 100%;
-    height: 100vh;
-}
-#github{
-    padding-top: 10px;
-    width: 16%;
-}
-#daisy{
-    margin-top: 50px;
-    width: 90%;
-    height: 600px;
-    object-fit: cover ;
+.kolton_info{
+    row-gap:25px ;
 }
 #links {
     display: grid;
@@ -53,14 +72,40 @@
     display: grid;
    font-size: 28px;
 }
-.info{
-    height: 50%;
-    width: 55%;  
-    margin-top: 25%; 
+.link-project{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 45px auto;
+    column-gap: 30px;
 }
-.contact{
-    margin-top: 5%;
+.link-project h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    padding: 20px;
+    font-size: 30px;
 }
+.pic{
+    display: flex;
+    justify-content: center;
+}
+.project{
+    display: grid;
+    grid-template-rows: 10% 90%;
+    padding: 15px;
+    width: auto;
+    height: 120vh;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+
+
+
 
 
 
