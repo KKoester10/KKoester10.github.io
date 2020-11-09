@@ -21,6 +21,7 @@
 }
 .bio .about-me{
     justify-items: center;
+    text-align: center;
     margin: 15px;
 }
 .bio img{
