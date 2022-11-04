@@ -5,7 +5,7 @@
     font-family: 'El Messiri', sans-serif;
 }
 a{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
 }
 a:hover{
     color: chartreuse;
@@ -16,9 +16,15 @@ a:hover{
     box-shadow:0 0 3px aquamarine;
 }
 body{
-    background-image:linear-gradient(rgba(255, 255, 255, 0.637),rgba(0, 0, 0, 0.644)),  url("../images/mountian.jpg");
+    /* background-image:linear-gradient(rgba(255, 255, 255, 0.637),rgba(0, 0, 0, 0.644)),  url("../images/mountian.jpg"); */
     background-position: center;
     background-size: cover;
+}
+canvas{
+    display: block;
+    position: absolute;
+    z-index: -1;
+    background-color: black;
 }
 .Connect{
     background-color: rgba(80, 0, 100, 0.548);

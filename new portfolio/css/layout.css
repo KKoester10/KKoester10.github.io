@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+    
+}
+.fullPage{
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+    max-width: 100vw;
+    grid-template-columns: 25% 75%;
+
+}
+.main-menuContainer{
+    display: grid;
+    position: fixed;
+    font-family: font-file-82132;
+    height: 100vh;
+    min-height: 100vh;
+    max-width: 155px;
+    min-width: 155px;
+    background-color:  #181818;
+    z-index: 1;
+    border-style: none outset none none ;
+    border-color: whitesmoke;
+} 
+.main-menu_nav a{
+    display:flex ;
+    justify-content: start;
+    font-size: 1.21em;
+    padding: 25px;
+    background-color: #1f1f1f;
+    border-style: none none double none;
+    border-radius: 7%;
+    border-color:whitesmoke ;
+    color: whitesmoke;
+    transition: justify-content, font-size .95s, color .95s ;
+}
+.main-menu_nav a:hover{
+    display:flex ;
+    justify-content:end;
+    font-size: 1.6em;
+    color: rgb(252, 248, 34);
+}
+.items{
+    /* background-color: blue ; */
+    /* opacity: .75; */
+    position: relative;
+    background-image: url(../images/mountian.jpg);
+    background-size:cover;
+    border-color: whitesmoke;
+    border-style:double;
+    border-radius: 12%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.work-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3rem;
+}
+.work-box{
+    width: 40%;
+    color: whitesmoke;
+    background: #2a2a2a;
+    /* height: fit-content; */
+    border-style:outset;
+    border-radius: 5%;
+    padding: 1em;
+    transition: background-color .95s, color .95s, height 5s;
+}
+/* .work-row .work-box:hover{
+    height:50vh;
+    color: #2a2a2a;
+    background-color: rgb(252, 248, 34);
+} */
+.work-box header {
+    font-family: font-file-82132;
+    /* font-size: 2.6rem; */
+    /* line-height: 2rem; */
+    margin-bottom: .5rem;
+}
+.work-box section {
+    /* font-size: 1.6rem; */
+    color: #ababab;
+    margin-bottom: 1.5rem;
+}
+.work-box section time {
+    display: block;
+    /* font-size: 1.2rem; */
+}
+.work-box footer {
+    /* font-size: 1.6rem; */
+    color: #ababab;
+    /* line-height: 1.8rem; */
+}
+
+.aboutMeContainer{
+    padding-top: 13%;
+}
+.picture{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    width: 90%;
+    /* background-color: darkseagreen; */
+}
+.me{
+    opacity: 1;
+    border-radius: 13%;
+    width: 50%;
+    
+}
+.BaboutMe .work-box{
+    opacity: .75;
+    width: 13em;
+}
+.BaboutMe{
+    display: flex;
+    max-width: 40%;
+    min-width: 40%;
+    padding-bottom: 25px;
+    flex-direction: row;
+    justify-content: flex-end;
+   
+    /* background-color: darkcyan; */
+}
+.tabs{
+   
+    opacity: .75;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.mainPage{
+    display: flex;
+    justify-content: center; 
+    justify-content: space-evenly;
+    width: 100vw;
+    padding-left: 155px;
+    /* background-color: ; */
+    
+}
+canvas{
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+
+/* ---------------------------------------------------------------- */
+.topMenu{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+.intro-title{
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 8em;
+}
+.job{
+    display: flex;
+    justify-content: start;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    font-size: 1em;
+}
+.main-menu-top{
+    display: flex;
+    justify-content: stretch;
+    min-height:60px ;
+    height: 270px;
+    max-height:250px ;
+    color: whitesmoke;
+    background-color: #1f1f1f;
+    border-style: none none double none;
+    border-radius: 4%;
+    border-color:whitesmoke ;
+}
+.main-menu_nav{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+/* ----------------------------------------------------------- */
+.logos{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    font-size: 2em;
+    list-style: none;
+    max-width: 155px;
+    min-width: 155px;
+    
+}
+.logos li a{
+ color: whitesmoke;
+ transition: color .95s, font-size .95s;
+}
+.logos li a:hover{
+    color: rgb(252, 248, 34);
+    font-size: 1.5em;
+}
