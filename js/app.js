@@ -3,6 +3,13 @@ var canvas = document.querySelector('canvas'),
     ctx = canvas.getContext('2d')
 
 // Setting the width and height of the canvas
+
+window.addEventListener('resize',() => {
+  // let canvas = document.querySelector('canvas');
+  canvas.width = window.innerWidth;
+  
+  canvas.height = window.innerHeight;
+  })
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
@@ -76,7 +83,7 @@ function draw() {
   ctx.fillRect(0, 0, canvas.width, canvas.height);
   for (var i = 0; i < drops.length; i++) {
     var text = letters[Math.floor(Math.random() * letters.length)];
-    ctx.fillStyle = ' #0f0';
+    ctx.fillStyle = 'rgb(252, 248, 34)';
     ctx.fillText(text, i * fontSize, drops[i] * fontSize);
     drops[i]++;
     if (drops[i] * fontSize > canvas.height && Math.random() > .95) {
